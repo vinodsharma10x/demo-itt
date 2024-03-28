@@ -41,8 +41,8 @@ export default function HomePage() {
             Husky{' '}
           </p>
           <p className='mt-2 text-sm text-gray-700'>
-            <ArrowLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter'>
-              See the repository
+            <ArrowLink href='https://github.com/vinodsharma10x/demo-itt'>
+              Visit the GitHub repository
             </ArrowLink>
           </p>
 
@@ -51,22 +51,22 @@ export default function HomePage() {
           </ButtonLink>
 
           <UnstyledLink
-            href='https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter'
+            href='https://vinodsharma.co/'
             className='mt-4'
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               width='92'
               height='32'
-              src='https://vercel.com/button'
-              alt='Deploy with Vercel'
+              src='https://vinodsharma.co/'
+              alt='Visit my website'
             />
           </UnstyledLink>
 
           <footer className='absolute bottom-2 text-gray-700'>
             © {new Date().getFullYear()} By{' '}
             <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
-              Theodorus Clarence
+              Vinod Sharma
             </UnderlineLink>
           </footer>
         </div>
