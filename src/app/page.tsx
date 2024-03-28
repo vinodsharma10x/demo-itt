@@ -50,18 +50,7 @@ export default function HomePage() {
             See all components
           </ButtonLink>
 
-          <UnstyledLink
-            href='https://vinodsharma.co/'
-            className='mt-4'
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              width='92'
-              height='32'
-              src='https://vinodsharma.co/'
-              alt='Visit my website'
-            />
-          </UnstyledLink>
+          
 
           <footer className='absolute bottom-2 text-gray-700'>
             © {new Date().getFullYear()} By{' '}
